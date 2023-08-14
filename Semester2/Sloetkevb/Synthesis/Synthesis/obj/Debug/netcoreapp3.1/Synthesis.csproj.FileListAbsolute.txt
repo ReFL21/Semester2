@@ -1,0 +1,20 @@
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis\Synthesis\obj\Debug\netcoreapp3.1\Synthesis.csproj.AssemblyReference.cache
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis\Synthesis\obj\Debug\netcoreapp3.1\Synthesis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis\Synthesis\obj\Debug\netcoreapp3.1\Synthesis.AssemblyInfoInputs.cache
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis\Synthesis\obj\Debug\netcoreapp3.1\Synthesis.AssemblyInfo.cs
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis\Synthesis\obj\Debug\netcoreapp3.1\Synthesis.csproj.CoreCompileInputs.cache
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis\Synthesis\bin\Debug\netcoreapp3.1\Synthesis.deps.json
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis\Synthesis\bin\Debug\netcoreapp3.1\Synthesis.dll
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis\Synthesis\bin\Debug\netcoreapp3.1\Synthesis.pdb
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis\Synthesis\obj\Debug\netcoreapp3.1\Synthesis.dll
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis\Synthesis\obj\Debug\netcoreapp3.1\Synthesis.pdb
+C:\Users\hrist\Desktop\SynthesisAssignmentv2\Synthesis assgingment\synthesis-assignment\Sloetkevb\Synthesis\Synthesis\bin\Debug\netcoreapp3.1\Synthesis.deps.json
+C:\Users\hrist\Desktop\SynthesisAssignmentv2\Synthesis assgingment\synthesis-assignment\Sloetkevb\Synthesis\Synthesis\bin\Debug\netcoreapp3.1\Synthesis.dll
+C:\Users\hrist\Desktop\SynthesisAssignmentv2\Synthesis assgingment\synthesis-assignment\Sloetkevb\Synthesis\Synthesis\bin\Debug\netcoreapp3.1\Synthesis.pdb
+C:\Users\hrist\Desktop\SynthesisAssignmentv2\Synthesis assgingment\synthesis-assignment\Sloetkevb\Synthesis\Synthesis\obj\Debug\netcoreapp3.1\Synthesis.csproj.AssemblyReference.cache
+C:\Users\hrist\Desktop\SynthesisAssignmentv2\Synthesis assgingment\synthesis-assignment\Sloetkevb\Synthesis\Synthesis\obj\Debug\netcoreapp3.1\Synthesis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hrist\Desktop\SynthesisAssignmentv2\Synthesis assgingment\synthesis-assignment\Sloetkevb\Synthesis\Synthesis\obj\Debug\netcoreapp3.1\Synthesis.AssemblyInfoInputs.cache
+C:\Users\hrist\Desktop\SynthesisAssignmentv2\Synthesis assgingment\synthesis-assignment\Sloetkevb\Synthesis\Synthesis\obj\Debug\netcoreapp3.1\Synthesis.AssemblyInfo.cs
+C:\Users\hrist\Desktop\SynthesisAssignmentv2\Synthesis assgingment\synthesis-assignment\Sloetkevb\Synthesis\Synthesis\obj\Debug\netcoreapp3.1\Synthesis.csproj.CoreCompileInputs.cache
+C:\Users\hrist\Desktop\SynthesisAssignmentv2\Synthesis assgingment\synthesis-assignment\Sloetkevb\Synthesis\Synthesis\obj\Debug\netcoreapp3.1\Synthesis.dll
+C:\Users\hrist\Desktop\SynthesisAssignmentv2\Synthesis assgingment\synthesis-assignment\Sloetkevb\Synthesis\Synthesis\obj\Debug\netcoreapp3.1\Synthesis.pdb

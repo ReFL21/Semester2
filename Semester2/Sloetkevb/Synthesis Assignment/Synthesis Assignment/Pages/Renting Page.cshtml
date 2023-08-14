@@ -1,0 +1,135 @@
+﻿@page
+@model Synthesis_Assignment.Pages.Renting_PageModel
+@{
+}
+<div class="Rent">
+    <form method="post">
+
+        <label asp-for="Rent.StartingDate"><b>StartDate:</b></label><br />
+        <input asp-for="Rent.StartingDate"><br />
+        <span class="validation" asp-validation-for="Rent.StartingDate"></span>
+
+        <label asp-for="Rent.EndDate"><b>EndDate:</b></label><br />
+        <input asp-for="Rent.EndDate"><br />
+        <span class="validation" asp-validation-for="Rent.EndDate"></span>
+        <p>Boats table:</p>
+        <table class="table">
+            <tr>
+                <th>
+                    ID
+                </th>
+                <th>
+                    City
+                </th>
+                <th>
+                    Address
+                </th>
+
+            </tr>
+
+            @foreach (var location in Model.sloepke.LocationManager.ViewAllLocations().ToList())
+            {
+                <tr>
+                    <td>
+                        @location.ID
+                    </td>
+                    <td>
+                        @location.City
+                    </td>
+                    <td>
+                        @location.Address
+                    </td>
+                </tr>
+            }
+        </table>
+        <label asp-for="Rent.Location.ID"><b>Id:</b></label>
+        <input asp-for="Rent.Location.ID"><br />
+        <span class="validation" asp-validation-for="Rent.Location.ID"></span><br />
+        <label asp-for="Rent.Note"><b>Note:</b></label><br />
+        <textarea asp-for="Rent.Note" rows="4" cols="50">  </textarea>
+        <span class="validation" asp-validation-for="Rent.Note"></span>
+
+
+        <p>Boats table:</p>
+        <table class="table">
+            <tr>
+                <th>
+                    Type
+                </th>
+                <th>
+                    Cost Per 2 Hours
+                </th>
+                <th>
+                    Deposit
+                </th>
+
+                <th>
+
+                </th>
+            </tr>
+
+            @foreach (var boat in Model.sloepke.BoatManager.ViewAllBoats().ToList())
+            {
+                <tr>
+                    <td>
+                        @boat.Type
+                    </td>
+                    <td>
+                        @boat.CostPer2Hours
+                    </td>
+                    <td>
+                        @boat.Deposit
+                    </td>
+
+                    <td>
+                        <a asp-page="Basket" asp-page-handler="AddBoatToBasket" asp-route-id="@boat.ID">Rent</a>
+
+                    </td>
+
+                </tr>
+            }
+        </table>
+        <p>Items Table:</p>
+        <table class="table">
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Cost Per 2 Hours
+                </th>
+                <th>
+                    Deposit
+                </th>
+
+                <th>
+
+                </th>
+            </tr>
+
+            @foreach (var boat in Model.sloepke.ItemsManger.ViewAllItmes().ToList())
+            {
+                <tr>
+                    <td>
+                        @boat.Name
+                    </td>
+                    <td>
+                        @boat.CostPer2Hous
+                    </td>
+                    <td>
+                        @boat.Deposit
+                    </td>
+
+                    <td>
+
+                        <a asp-page="Basket" asp-page-handler="AddItemsToBasket" asp-route-id="@boat.ID">Rent</a>
+
+                    </td>
+
+                </tr>
+            }
+        </table>
+
+        <input class="button" type="submit" value="To Basket">
+    </form>
+</div>

@@ -1,0 +1,123 @@
+﻿@page
+@model Synthesis_Assignment.Pages.RentalQuoteModel
+@{
+}
+<div class="Rent">
+    <p>Last Rent Information:</p><br />
+    <span>@Model.Rent.Date</span><br />
+    <span>@Model.Rent.ID</span><br />
+    <span>@Model.Rent.StartingDate</span><br />
+    <span>@Model.Rent.EndDate</span><br />
+    <span>@Model.Rent.Location.ID</span><br />
+</div>
+
+<div class="Customer">
+    <p>Customer information:</p><br />
+    <span>@Model.Customer.Name</span><br />
+    <span>@Model.Customer.Address</span><br />
+    <span>@Model.Customer.City</span><br />
+    <span>@Model.Customer.PhoneNumber</span><br />
+    <span>@Model.Customer.Email</span><br />
+</div>
+
+
+<form method="post">
+    <p>Boats:</p>
+    <table class="table">
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                RentID
+            </th>
+            <th>
+                BoatID
+            </th>
+
+            <th>
+                Items ID
+            </th>
+            <th>
+                Quantity
+            </th>
+            <th>
+                Deposit
+            </th>
+            <th>
+                TotalPrice
+            </th>
+        </tr>
+
+        @foreach (var rentProduct in Model.sloepke.RentManager.ViewRentedBoats(Model.Rent).ToList())
+        {
+            <tr>
+                <td>
+                    @rentProduct.ID
+                </td>
+                <td>
+                    @rentProduct.Rent.ID
+                </td>
+                <td>
+                    @rentProduct.Boat.ID
+                </td>
+                <td>
+                    @rentProduct.Quantity
+                </td>
+                <td>
+                    @rentProduct.TotalPrice
+                </td>
+
+            </tr>
+        }
+    </table>
+
+
+    <p>Items:</p>
+    <table class="table">
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                RentID
+            </th>
+            <th>
+                Items ID
+            </th>
+            <th>
+                Quantity
+            </th>
+            <th>
+                Deposit
+            </th>
+            <th>
+                TotalPrice
+            </th>
+        </tr>
+
+        @foreach (var rentProduct in Model.sloepke.RentManager.ViewRentedItems(Model.Rent).ToList())
+        {
+            <tr>
+                <td>
+                    @rentProduct.ID
+                </td>
+                <td>
+                    @rentProduct.Rent.ID
+                </td>
+                <td>
+                    @rentProduct.Items.ID
+                </td>
+                <td>
+                    @rentProduct.Quantity
+                </td>
+                <td>
+                    @rentProduct.TotalPrice
+                </td>
+
+            </tr>
+        }
+    </table>
+    <p>Total price(both tables): @Model.Total</p><br />
+    <button type="submit">Accept</button>
+</form>

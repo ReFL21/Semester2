@@ -1,0 +1,630 @@
+<Project>
+  <Name>Synthesis Assignment</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Untitled</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Customer</Name>
+        <Access>Public</Access>
+        <Location left="2103" top="764" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int phoneNumber</Member>
+        <Member type="Constructor">public Customer()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Worker</Name>
+        <Access>Public</Access>
+        <Location left="1847" top="764" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Location location</Member>
+        <Member type="Constructor">public Worker()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ItemManager</Name>
+        <Access>Public</Access>
+        <Location left="1021" top="699" />
+        <Size width="175" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void AddItems(Items items)</Member>
+        <Member type="Method">public List&lt;Items&gt; ViewAllItems()</Member>
+        <Member type="Method">public void AddQuantity(Items item)</Member>
+        <Member type="Method">public void SubtrackQuantity(Items item)</Member>
+        <Member type="Method">public Items ShowInfo(int id)</Member>
+        <Member type="Method">public void Deleteitem(Items item)</Member>
+        <Member type="Method">public DataTable ViewItems()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Items</Name>
+        <Access>Public</Access>
+        <Location left="804" top="1009" />
+        <Size width="460" height="315" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int id</Member>
+        <Member type="Field">string name</Member>
+        <Member type="Field">int deposit</Member>
+        <Member type="Field">int costPer2Hours</Member>
+        <Member type="Field">int quantity</Member>
+        <Member type="Field">string remark</Member>
+        <Member type="Property">public int ID { get; set; }</Member>
+        <Member type="Property">public stirng Name { get; set; }</Member>
+        <Member type="Property">public int Deposit { get; set; }</Member>
+        <Member type="Property">public int CostPer2Hours { get; set; }</Member>
+        <Member type="Property">public int Quantity { get; set; }</Member>
+        <Member type="Property">public string Remark { get; set; }</Member>
+        <Member type="Constructor">public Items(int id, string name, int deposit, int costPer2Hours, int quantity, string remark)</Member>
+        <Member type="Constructor">public Items(string name, int deposit, int costPer2Hours, int quantity, string remark)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Boat</Name>
+        <Access>Public</Access>
+        <Location left="43" top="405" />
+        <Size width="376" height="383" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int id</Member>
+        <Member type="Field">string type</Member>
+        <Member type="Field">int costPer2Hours</Member>
+        <Member type="Field">string remark</Member>
+        <Member type="Field">int quantity</Member>
+        <Member type="Field">int deposit</Member>
+        <Member type="Field">int capacity</Member>
+        <Member type="Property">public int Deposit { get; set; }</Member>
+        <Member type="Property">public int Capacity { get; set; }</Member>
+        <Member type="Property">public int ID { get; set; }</Member>
+        <Member type="Property">public int Quantity { get; set; }</Member>
+        <Member type="Property">public int CostPer2Hours { get; set; }</Member>
+        <Member type="Property">public string Type { get; set; }</Member>
+        <Member type="Property">public string Qunaitty { get; set; }</Member>
+        <Member type="Constructor">public Boat(int id, string type, int costPer2Hours, string remark, int deposit, int qunaitty, int capacity)</Member>
+        <Member type="Constructor">public Boat(string type, int costPer2Hours, string remark, int deposit, int qunaitty, int capacity)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>BoatManager</Name>
+        <Access>Public</Access>
+        <Location left="468" top="405" />
+        <Size width="171" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public List&lt;Boat&gt; ViewAllBoats()</Member>
+        <Member type="Method">public void AddBoat(Boat boat)</Member>
+        <Member type="Method">public void DeleteBoat(Boat boat)</Member>
+        <Member type="Method">public void SubtrackQuantity(Boat boat)</Member>
+        <Member type="Method">public void AddQuantity(Boat boat)</Member>
+        <Member type="Method">public Boat ShowBoatInfo(int id)</Member>
+        <Member type="Method">public DataTable ViewBoats()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Location</Name>
+        <Access>Public</Access>
+        <Location left="1085" top="10" />
+        <Size width="243" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int id</Member>
+        <Member type="Field">stirng city</Member>
+        <Member type="Field">string address</Member>
+        <Member type="Property">public int ID { get; set; }</Member>
+        <Member type="Property">public string City { get; set; }</Member>
+        <Member type="Property">public string Address { get; set; }</Member>
+        <Member type="Constructor">public Location(int id, string city, stirng address)</Member>
+        <Member type="Constructor">public Location(stirng city, string address)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>LocationManger</Name>
+        <Access>Public</Access>
+        <Location left="745" top="10" />
+        <Size width="225" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void Addlocation(Location location)</Member>
+        <Member type="Method">public List&lt;Location&gt; ViewAllLocations()</Member>
+        <Member type="Method">public void DeleteLocation(Location location)</Member>
+        <Member type="Method">public DataTable ViewLocations()</Member>
+        <Member type="Method">public void EditLocation(int id, string name, string city, string address)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DALBoats</Name>
+        <Access>Public</Access>
+        <Location left="119" top="862" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void AddBoat(Boat boat)</Member>
+        <Member type="Method">public List&lt;Boat&gt; ViewAllBoats()</Member>
+        <Member type="Method">public void SubtractQuantity(Boat boat)</Member>
+        <Member type="Method">public void AddQuantity(Boat boat)</Member>
+        <Member type="Method">public void DeleteBoat(Boat boat)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IBoat</Name>
+        <Access>Public</Access>
+        <Location left="487" top="710" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">void AddBoat(Boat boat)</Member>
+        <Member type="Method">List&lt;Boat&gt; ViewAllBoats()</Member>
+        <Member type="Method">void SubtractQuantity(Boat boat)</Member>
+        <Member type="Method">void AddQuantity(Boat boat)</Member>
+        <Member type="Method">void DeleteBoat(Boat boat)</Member>
+      </Entity>
+      <Entity type="Class">
+        <Name>DALItems</Name>
+        <Access>Public</Access>
+        <Location left="511" top="1025" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void AddItems(Items item)</Member>
+        <Member type="Method">public List&lt;Items&gt; ViewAllItems()</Member>
+        <Member type="Method">public void SubtrackQuantity(Items items)</Member>
+        <Member type="Method">public void AddQuantity(Items items)</Member>
+        <Member type="Method">public void DeleteItem(Items items)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IItems</Name>
+        <Access>Public</Access>
+        <Location left="733" top="710" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">void AddItems(Items items)</Member>
+        <Member type="Method">List&lt;Items&gt; ViewAllItems()</Member>
+        <Member type="Method">void SubtrackQuantity(Items items)</Member>
+        <Member type="Method">void AddQuantity(Items items)</Member>
+        <Member type="Method">void DeleteItem(Items items)</Member>
+      </Entity>
+      <Entity type="Class">
+        <Name>People</Name>
+        <Access>Public</Access>
+        <Location left="1786" top="420" />
+        <Size width="552" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int id</Member>
+        <Member type="Field">stirng name</Member>
+        <Member type="Field">string username</Member>
+        <Member type="Field">string password</Member>
+        <Member type="Field">string address</Member>
+        <Member type="Field">string city</Member>
+        <Member type="Field">string email</Member>
+        <Member type="Constructor">public People(int id, string name, string username, string password, string address, string city, strnign email)</Member>
+        <Member type="Constructor">public People(string name, string username, string password, string address, string city, strnign email)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PeopleManager</Name>
+        <Access>Public</Access>
+        <Location left="1325" top="345" />
+        <Size width="343" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void AddPeople(People people)</Member>
+        <Member type="Method">public List&lt;People&gt; ViewAllPeople()</Member>
+        <Member type="Method">public void GetUserByID(int id)</Member>
+        <Member type="Method">public int CheckUser(string username, string password)</Member>
+        <Member type="Method">public void DeleteWorker(Worker worker)</Member>
+        <Member type="Method">public DataTable ViewAllPeople()</Member>
+        <Member type="Method">public void AddLoggedWInList(Worker worker)</Member>
+        <Member type="Method">public List&lt;Worker&gt; ViewLoggedPerson()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DALPeople</Name>
+        <Access>Public</Access>
+        <Location left="2084" top="101" />
+        <Size width="509" height="170" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void AddPeople(People people)</Member>
+        <Member type="Method">public People GetUserByID(int id)</Member>
+        <Member type="Method">public void DeleteWorker(Worker worker)</Member>
+        <Member type="Method">public int CheckUser(string username, string password)</Member>
+        <Member type="Method">public List&lt;People&gt; ViewAllPeople()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IPeople</Name>
+        <Access>Public</Access>
+        <Location left="1609" top="85" />
+        <Size width="358" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">void AddPeople(People people)</Member>
+        <Member type="Method">int CheckUser(string username, string password)</Member>
+        <Member type="Method">People GetUserByID(int id)</Member>
+        <Member type="Method">List&lt;People&gt; ViewAllPeople()</Member>
+        <Member type="Method">void DeleteWorker(Worker worker)</Member>
+      </Entity>
+      <Entity type="Class">
+        <Name>DALLocation</Name>
+        <Access>Public</Access>
+        <Location left="87" top="37" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void Addlocation(Location location)</Member>
+        <Member type="Method">public List&lt;Location&gt; ViewAllLocations()</Member>
+        <Member type="Method">public void DeleteLocation(Location location)</Member>
+        <Member type="Method">public void EditLocation(int id, string name, string city, string address)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Interface">
+        <Name>ILocation</Name>
+        <Access>Public</Access>
+        <Location left="487" top="37" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">void Addlocation(Location location)</Member>
+        <Member type="Method">List&lt;Location&gt; ViewAllLocations()</Member>
+        <Member type="Method">void DeleteLocation(Location location)</Member>
+        <Member type="Method">void EditLocation(int id, string name, string city, string address)</Member>
+      </Entity>
+      <Entity type="Class">
+        <Name>SloepkeBV</Name>
+        <Access>Public</Access>
+        <Location left="842" top="366" />
+        <Size width="231" height="264" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">BoatManager bManager</Member>
+        <Member type="Field">ItemManager iManager</Member>
+        <Member type="Field">PeopleManager pManager</Member>
+        <Member type="Field">LocationManager lManager</Member>
+        <Member type="Field">RentManager rManager</Member>
+        <Member type="Property">public RentManager RManager { get; set; }</Member>
+        <Member type="Property">public BoatManager BManager { get; set; }</Member>
+        <Member type="Property">public ItemManager IManager { get; set; }</Member>
+        <Member type="Property">public PeopleManager PManager { get; set; }</Member>
+        <Member type="Property">public LocationManager LManager { get; set; }</Member>
+        <Member type="Constructor">public SloepkeBV()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Rent</Name>
+        <Access>Public</Access>
+        <Location left="1942" top="1146" />
+        <Size width="687" height="451" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int id</Member>
+        <Member type="Field">Date date</Member>
+        <Member type="Field">DateTime startingDate</Member>
+        <Member type="Field">DateTime endDate</Member>
+        <Member type="Field">People person</Member>
+        <Member type="Field">List&lt;Boat&gt; boats</Member>
+        <Member type="Field">List&lt;Items&gt; items</Member>
+        <Member type="Field">int price</Member>
+        <Member type="Field">string note</Member>
+        <Member type="Field">RentStatus status</Member>
+        <Member type="Property">public int ID { get; set; }</Member>
+        <Member type="Property">public int Price { get; set; }</Member>
+        <Member type="Property">public Date Date { get; set; }</Member>
+        <Member type="Property">public DateTime StartingDate { get; set; }</Member>
+        <Member type="Property">public DateTime EndDate { get; set; }</Member>
+        <Member type="Property">public People Person { get; set; }</Member>
+        <Member type="Property">public string Note { get; set; }</Member>
+        <Member type="Property">public List&lt;Boat&gt; Boat { get; set; }</Member>
+        <Member type="Property">public List&lt;Items&gt; Items { get; set; }</Member>
+        <Member type="Constructor">public Rent(DateTime startingDate, DateTime endDate, Person person, int price, stirng note)</Member>
+        <Member type="Constructor">public Rent(int id, Date date, DateTime startingDate, DateTime endDate, Person person, int price, stirng note, Boat boat)</Member>
+        <Member type="Constructor">public Rent(int id, Date date, DateTime startingDate, DateTime endDate, Person person, int price, stirng note, Boat boat, Items Items)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>RentManger</Name>
+        <Access>Public</Access>
+        <Location left="1499" top="1146" />
+        <Size width="280" height="247" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void AddRent(Rent rent)</Member>
+        <Member type="Method">public List&lt;Rent&gt; ViewAllRents()</Member>
+        <Member type="Method">public void UpdateRent(int id, DateTime date, DateTime Startdate, DateTime Enddate, Location location)</Member>
+        <Member type="Method">public void EndRent(Rent rent, RentalStatus status)</Member>
+        <Member type="Method">public DataTable ViewAllRent()</Member>
+        <Member type="Method">public void AddBoatsToRent(RentedProduct rentedProducts)</Member>
+        <Member type="Method">public void AddItemsToRent(RentedProduct rentedProducts)</Member>
+        <Member type="Method">public List&lt;RentedProduct&gt; ViewRentedBoats(Rent rent)</Member>
+        <Member type="Method">public List&lt;RentedProduct&gt; ViewRentedItems(Rent rent)</Member>
+        <Member type="Method">public DataTable ViewProductsByRent(Rent rent)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Enum">
+        <Name>RentStatus</Name>
+        <Access>Public</Access>
+        <Location left="2850" top="1193" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Value>Started</Value>
+        <Value>Finished</Value>
+        <Value>Pending</Value>
+      </Entity>
+      <Entity type="Class">
+        <Name>DALRent</Name>
+        <Access>Public</Access>
+        <Location left="2125" top="1708" />
+        <Size width="517" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void AddRent(Rent rent)</Member>
+        <Member type="Method">public void EditRent(int id, DateTime date, DateTime Startdate, DateTime Enddate, Location location)</Member>
+        <Member type="Method">public List&lt;Rent&gt; ViewAllRents()</Member>
+        <Member type="Method">public void EndRent(Rent rent, RentalStatus status)</Member>
+        <Member type="Method">public void AddBoatsToRent(RentedProduct rentedProducts)</Member>
+        <Member type="Method">public void AddItemsTORent(RentedProduct rentedProducts)</Member>
+        <Member type="Method">public List&lt;RentedProduct&gt; ViewRentedBoats(int Rentid)</Member>
+        <Member type="Method">public List&lt;RentedProduct&gt; ViewRentedItems(int Rentid)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IRent</Name>
+        <Access>Public</Access>
+        <Location left="1829" top="1719" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">void AddRent(Rent rent)</Member>
+        <Member type="Method">void UpdateRent(int id, DateTime date, DateTime Startdate, DateTime Enddate, Location location)</Member>
+        <Member type="Method">List&lt;Rent&gt; ViewAllRents()</Member>
+        <Member type="Method">void EndRent(Rent rent, RentalStatus status)</Member>
+        <Member type="Method">void AddBoatsToRent(RentedProduct rentedProducts)</Member>
+        <Member type="Method">void AddItemsTORent(RentedProduct rentedProducts)</Member>
+        <Member type="Method">List&lt;RentedProduct&gt; ViewRentedBoats(int Rentid)</Member>
+        <Member type="Method">List&lt;RentedProduct&gt; ViewRentedItems(int Rentid)</Member>
+      </Entity>
+      <Entity type="Class">
+        <Name>Inspection</Name>
+        <Access>Public</Access>
+        <Location left="770" top="1431" />
+        <Size width="375" height="264" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int id</Member>
+        <Member type="Field">People person</Member>
+        <Member type="Field">string note</Member>
+        <Member type="Field">Date date</Member>
+        <Member type="Field">Rent rent</Member>
+        <Member type="Constructor">public Inspection(int id, Worker worker, string note, Date date, Rent rent)</Member>
+        <Member type="Constructor">public Inspection(Worker worker, string note, Date date, Rent rent)</Member>
+        <Member type="Property">public int ID { get; set; }</Member>
+        <Member type="Property">public Worker worker { get; set; }</Member>
+        <Member type="Property">public string Note { get; set; }</Member>
+        <Member type="Property">public Date Date { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>InspectionManager</Name>
+        <Access>Public</Access>
+        <Location left="1231" top="1370" />
+        <Size width="243" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void AddInspection(Inspection inspection)</Member>
+        <Member type="Method">public List&lt;Inspections&gt; ViewAllInspections()</Member>
+        <Member type="Method">public List&lt;Inspection&gt; ViewInspectionsForRent(int id)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DALInspection</Name>
+        <Access>Public</Access>
+        <Location left="870" top="1801" />
+        <Size width="243" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void AddInspection(Inspection inspection)</Member>
+        <Member type="Method">public List&lt;Inspections&gt; ViewAllInspections()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IInspection</Name>
+        <Access>Public</Access>
+        <Location left="1286" top="1789" />
+        <Size width="243" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">void AddInspection(Inspection inspection)</Member>
+        <Member type="Method">List&lt;Inspections&gt; ViewAllInspections()</Member>
+      </Entity>
+      <Entity type="Class">
+        <Name>RentedProduct</Name>
+        <Access>Public</Access>
+        <Location left="2850" top="1490" />
+        <Size width="430" height="349" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int id</Member>
+        <Member type="Field">private Rent rent</Member>
+        <Member type="Field">private Boat boat</Member>
+        <Member type="Field">private Items items</Member>
+        <Member type="Field">private int quantity</Member>
+        <Member type="Field">private int totalPrice</Member>
+        <Member type="Constructor">public RentedProduct(Rent rent, Boat boat, int quantity, int totalPrice)</Member>
+        <Member type="Constructor">public RentedProduct(Rent rent, Items items, int quantity, int totalPrice)</Member>
+        <Member type="Constructor">public RentedProduct(int id, Rent rent, Boat boat, int quantity, int totalPrice)</Member>
+        <Member type="Constructor">public RentedProduct(int id, Rent rent, Items items, int quantity, int totalPrice)</Member>
+        <Member type="Property">public int ID { get; set; }</Member>
+        <Member type="Property">public Rent Rent { get; set; }</Member>
+        <Member type="Property">public Boat Boat { get; set; }</Member>
+        <Member type="Property">public iItems Items { get; set; }</Member>
+        <Member type="Property">public int Quantity { get; set; }</Member>
+        <Member type="Property">public int TotalPrice { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="2" second="3">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <EndMultiplicity>1..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="5" second="4">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>551</X>
+          <Y>374</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>232</X>
+          <Y>366</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <EndRole>boats</EndRole>
+        <EndMultiplicity>1..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="7" second="6">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <EndRole>location</EndRole>
+        <EndMultiplicity>1..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Realization" first="8" second="9">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Realization" first="5" second="9">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Realization" first="10" second="11">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Realization" first="2" second="11">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="1" second="12">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="0" second="12">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Association" first="13" second="12">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <EndMultiplicity>0..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Realization" first="14" second="15">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Realization" first="13" second="15">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Realization" first="7" second="17">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Realization" first="16" second="17">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Association" first="18" second="7">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="18" second="13">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="18" second="5">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="18" second="2">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Realization" first="22" second="23">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Realization" first="20" second="23">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Association" first="20" second="19">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <EndMultiplicity>0..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="18" second="20">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1205</X>
+          <Y>592</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1521</X>
+          <Y>1116</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="18" second="25">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="25" second="24">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <EndMultiplicity>0..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Realization" first="25" second="27">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Realization" first="26" second="27">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Dependency" first="19" second="21">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Association" first="20" second="28">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1692</X>
+          <Y>1075</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>

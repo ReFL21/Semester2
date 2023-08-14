@@ -1,0 +1,68 @@
+﻿@page
+@model Synthesis_Assignment.Pages.View_RentsModel
+@{
+}
+<table class="table">
+    <tr>
+        <th>
+            ID
+        </th>
+        <th>
+            Date
+        </th>
+        <th>
+            Starting Date
+        </th>
+        <th>
+            End Date
+        </th>
+        <th>
+            Note
+        </th>
+        <th>
+            Location
+        </th>
+        <th>
+            PersonID
+        </th>
+        <th>
+            Status
+        </th>
+        <th>
+            
+        </th>
+    </tr>
+
+    @foreach (var rents in Model.rent)
+    {
+<tr>
+    <td>
+        @rents.ID
+    </td>
+    <td>
+        @rents.Date
+    </td>
+    <td>
+        @rents.StartingDate
+    </td>
+    <td>
+        @rents.EndDate
+    </td>
+    <td>
+        @rents.Note
+    </td>
+    <td>
+        @rents.Location.ID
+    </td>
+    <td>
+        @rents.Person.ID
+    </td>
+    <td>
+        @rents.Status.ToString()
+    </td>
+    <td>
+        <a asp-page="Update Rent" asp-route-id="@rents.ID">Update</a>
+    </td>
+</tr>
+    }
+</table>

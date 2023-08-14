@@ -1,0 +1,24 @@
+﻿@page
+@model Synthesis_Assignment.Pages.ProfilePageModel
+@{
+}
+<link rel="stylesheet" href="~/css/profile.css" />
+<div class="content">
+
+    <div class="card">
+        <img src="/images/sir stenly pojs.jpg" alt="John" style="width:100%">
+        <h1>@Model.Customer.Name</h1>
+        <p class="title">@Model.Customer.Username</p>
+        <p>@Model.Customer.Email</p>
+        <div style="margin: 24px 0;">
+            @Model.Customer.City<br>
+            @Model.Customer.Address
+        </div>
+
+    </div>
+
+
+
+
+
+</div>

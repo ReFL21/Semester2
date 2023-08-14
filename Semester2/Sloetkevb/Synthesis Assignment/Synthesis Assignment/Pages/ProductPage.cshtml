@@ -1,0 +1,40 @@
+﻿@page
+@model Synthesis_Assignment.Pages.ProductPageModel
+@{
+}
+
+<link rel="stylesheet" href="~/css/Productpage.css" />
+<body>
+
+    <form method="post">
+
+        <div class="Container">
+            <div class="leftColumn">
+                
+
+            </div>
+
+            <div class="rightColumn">
+                <div class="productDescription">
+
+                    <span>@Model.Boat.Type</span><br />
+                    
+                    <span>@Model.Boat.Location</span><br />
+
+                    <p>@Model.Boat.Remark</p>
+                </div>
+
+
+                <div class="productPrice">
+                    <span>@Model.Boat.Deposit €</span>
+                    <span>@Model.Boat.CostPer2Hours €</span>
+
+                    <input class="button" type="submit" value="Rent" >
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+</body>
+

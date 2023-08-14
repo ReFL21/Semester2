@@ -1,0 +1,62 @@
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Synthesis Assignment.csproj.AssemblyReference.cache
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Synthesis Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Synthesis Assignment.AssemblyInfoInputs.cache
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Synthesis Assignment.AssemblyInfo.cs
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Synthesis Assignment.csproj.CoreCompileInputs.cache
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Synthesis Assignment.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Synthesis Assignment.RazorAssemblyInfo.cache
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Synthesis Assignment.RazorAssemblyInfo.cs
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\bin\Debug\netcoreapp3.1\Synthesis Assignment.exe
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\bin\Debug\netcoreapp3.1\Synthesis Assignment.deps.json
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\bin\Debug\netcoreapp3.1\Synthesis Assignment.runtimeconfig.json
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\bin\Debug\netcoreapp3.1\Synthesis Assignment.runtimeconfig.dev.json
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\bin\Debug\netcoreapp3.1\Synthesis Assignment.dll
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\bin\Debug\netcoreapp3.1\Synthesis Assignment.pdb
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\bin\Debug\netcoreapp3.1\Synthesis Assignment.Views.dll
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\bin\Debug\netcoreapp3.1\Synthesis Assignment.Views.pdb
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\bin\Debug\netcoreapp3.1\ZstdNet.dll
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\bin\Debug\netcoreapp3.1\Synthesis.dll
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\bin\Debug\netcoreapp3.1\Synthesis.pdb
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\staticwebassets\Synthesis Assignment.StaticWebAssets.Manifest.cache
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\staticwebassets\Synthesis Assignment.StaticWebAssets.xml
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\scopedcss\bundle\Synthesis Assignment.styles.css
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Synthesis Assignment.TagHelpers.input.cache
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Synthesis Assignment.TagHelpers.output.cache
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Synthesis Assignment.RazorCoreGenerate.cache
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Razor\Pages\ContentPage.cshtml.g.cs
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Razor\Pages\Login.cshtml.g.cs
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Razor\Pages\ProfilePage.cshtml.g.cs
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Razor\Pages\Register.cshtml.g.cs
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Synthesis Assignment.RazorTargetAssemblyInfo.cache
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Synthesis Assignment.RazorTargetAssemblyInfo.cs
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Synthesis Assignment.Views.pdb
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Synthesis Assignment.csproj.CopyComplete
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Synthesis Assignment.dll
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Synthesis Assignment.pdb
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Synthesis Assignment.genruntimeconfig.cache
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Razor\Pages\ProductPage.cshtml.g.cs
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Razor\Pages\Renting Page.cshtml.g.cs
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Razor\Pages\Basket.cshtml.g.cs
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Razor\Pages\Update Rent.cshtml.g.cs
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Razor\Pages\View Rents.cshtml.g.cs
+C:\Users\hrist\Desktop\SynthesisAssignment\synthesis-assignment\Synthesis Assignment\Synthesis Assignment\obj\Debug\netcoreapp3.1\Razor\Pages\RentalQuote.cshtml.g.cs

@@ -1,0 +1,44 @@
+﻿@page
+@model Synthesis_Assignment.Pages.ContentPageModel
+@{
+}
+<form method="post">
+    <table class="table">
+        <tr>
+            <th>
+                Type
+            </th>
+            <th>
+                Cost Per 2 Hours
+            </th>
+            <th>
+                Deposit
+            </th>
+
+            <th>
+                
+            </th>
+        </tr>
+
+        @foreach (var boat in Model.Boats)
+        {
+            <tr>
+                <td>
+                    @boat.Type
+                </td>
+                <td>
+                    @boat.CostPer2Hours
+                </td>
+                <td>
+                    @boat.Deposit
+                </td>
+
+                <td>
+                    <a asp-page="/ProductPage" asp-route-id="@boat.ID" type="button" value="View"> View Boat</a>
+
+                </td>
+
+            </tr>
+        }
+    </table>
+</form>

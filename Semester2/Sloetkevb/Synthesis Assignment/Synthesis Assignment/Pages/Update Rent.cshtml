@@ -1,0 +1,51 @@
+﻿@page
+@model Synthesis_Assignment.Pages.Update_RentModel
+@{
+}
+<div>
+    <form method="post">
+        <label asp-for="Rent.StartingDate"><b>StartDate:</b></label><br />
+        <input asp-for="Rent.StartingDate"><br />
+        <span class="validation" asp-validation-for="Rent.StartingDate"></span>
+
+        <label asp-for="Rent.EndDate"><b>EndDate:</b></label><br />
+        <input asp-for="Rent.EndDate"><br />
+        <span class="validation" asp-validation-for="Rent.EndDate"></span>
+        <p>Boats table:</p>
+        <table class="table">
+            <tr>
+                <th>
+                    ID
+                </th>
+                <th>
+                    City
+                </th>
+                <th>
+                    Address
+                </th>
+
+            </tr>
+
+            @foreach (var location in Model.Locations)
+            {
+                <tr>
+                    <td>
+                        @location.ID
+                    </td>
+                    <td>
+                        @location.City
+                    </td>
+                    <td>
+                        @location.Address
+                    </td>
+                </tr>
+            }
+        </table>
+        <label asp-for="Rent.Location.ID"><b>Id:</b></label>
+        <input asp-for="Rent.Location.ID"><br />
+        <span class="validation" asp-validation-for="Rent.Location.ID"></span><br />
+
+
+
+    </form>
+</div>

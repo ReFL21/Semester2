@@ -1,0 +1,98 @@
+﻿@page
+@model Synthesis_Assignment.Pages.BasketModel
+@{
+}
+<div class="content">
+    <form method="post">
+        <p> Selected Boats:</p><br />
+        <table class="table">
+            <tr>
+
+                <th>
+                    Type
+                </th>
+                <th>
+                    CostPer2Hours
+                </th>
+                <th>
+                    Deposit
+                </th>
+                <th>
+                    Capacity
+                </th>
+                <th>
+
+                </th>
+            </tr>
+
+            @foreach (var product in Model.basket.ViewAllBoats())
+            {
+                <tr>
+
+                    <td>
+                        @product.Type
+                    </td>
+                    <td>
+                        @product.CostPer2Hours
+                    </td>
+                    <td>
+                        @product.Deposit
+                    </td>
+                    <td>
+                        @product.Capacity
+                    </td>
+                    <td>
+                        <a asp-page="Basket" asp-page-handler="RemoveBfromBasket" asp-route-id="@product.ID">Remove</a>
+                    </td>
+                </tr>
+            }
+        </table>
+
+        <p> Selected Items:</p><br />
+        <table class="table">
+            <tr>
+
+                <th>
+                    Type
+                </th>
+                <th>
+                    CostPer2Hours
+                </th>
+                <th>
+                    Deposit
+                </th>
+                <th>
+                    Location
+                </th>
+                <th>
+                
+                </th>
+            </tr>
+
+            @foreach (var items in Model.basket.ViewallItems())
+            {
+                <tr>
+
+                    <td>
+                        @items.Name
+                    </td>
+                    <td>
+                        @items.CostPer2Hous
+                    </td>
+                    <td>
+                        @items.Deposit
+                    </td>
+                    <td>
+                        @items.Location.ID
+                    </td>
+                    <td>
+                        <a asp-page="Basket" asp-page-handler="RemoveIfromBasket" asp-route-id="@items.ID">Remove</a>
+                    </td>
+
+                </tr>
+            }
+        </table>
+
+        <button type="submit">Buy</button>
+    </form>
+</div>

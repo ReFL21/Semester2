@@ -1,0 +1,24 @@
+﻿@page
+@model Synthesis_Assignment.Pages.LoginModel
+@{
+}
+
+<head>
+
+    <link rel="stylesheet" href="~/css/Login and Register.css" />
+</head>
+<h1>Login</h1>
+
+<div class="login">
+    <form method="post">
+        <label asp-for="Customer.Username"><b>Username:</b></label><br />
+        <input asp-for="Customer.Username"><br />
+        <span class="validation" asp-validation-for="Customer.Username"></span>
+
+        <label asp-for="Customer.Password"><b>Password</b></label><br />
+        <input asp-for="Customer.Password"><br />
+        <span class="validation" asp-validation-for="Customer.Password"></span>
+
+        <button type="submit">Login</button><br />
+    </form>
+</div>
