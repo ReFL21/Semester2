@@ -1,0 +1,10 @@
+C:\Users\hrist\Desktop\SynthesisAssignmentv2\Synthesis assgingment\synthesis-assignment\DuelSys inc\DuelSys\DuelSysClassLibrary\bin\Release\netcoreapp3.1\DuelSysClassLibrary.deps.json
+C:\Users\hrist\Desktop\SynthesisAssignmentv2\Synthesis assgingment\synthesis-assignment\DuelSys inc\DuelSys\DuelSysClassLibrary\bin\Release\netcoreapp3.1\DuelSysClassLibrary.dll
+C:\Users\hrist\Desktop\SynthesisAssignmentv2\Synthesis assgingment\synthesis-assignment\DuelSys inc\DuelSys\DuelSysClassLibrary\bin\Release\netcoreapp3.1\DuelSysClassLibrary.pdb
+C:\Users\hrist\Desktop\SynthesisAssignmentv2\Synthesis assgingment\synthesis-assignment\DuelSys inc\DuelSys\DuelSysClassLibrary\obj\Release\netcoreapp3.1\DuelSysClassLibrary.csproj.AssemblyReference.cache
+C:\Users\hrist\Desktop\SynthesisAssignmentv2\Synthesis assgingment\synthesis-assignment\DuelSys inc\DuelSys\DuelSysClassLibrary\obj\Release\netcoreapp3.1\DuelSysClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hrist\Desktop\SynthesisAssignmentv2\Synthesis assgingment\synthesis-assignment\DuelSys inc\DuelSys\DuelSysClassLibrary\obj\Release\netcoreapp3.1\DuelSysClassLibrary.AssemblyInfoInputs.cache
+C:\Users\hrist\Desktop\SynthesisAssignmentv2\Synthesis assgingment\synthesis-assignment\DuelSys inc\DuelSys\DuelSysClassLibrary\obj\Release\netcoreapp3.1\DuelSysClassLibrary.AssemblyInfo.cs
+C:\Users\hrist\Desktop\SynthesisAssignmentv2\Synthesis assgingment\synthesis-assignment\DuelSys inc\DuelSys\DuelSysClassLibrary\obj\Release\netcoreapp3.1\DuelSysClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\hrist\Desktop\SynthesisAssignmentv2\Synthesis assgingment\synthesis-assignment\DuelSys inc\DuelSys\DuelSysClassLibrary\obj\Release\netcoreapp3.1\DuelSysClassLibrary.dll
+C:\Users\hrist\Desktop\SynthesisAssignmentv2\Synthesis assgingment\synthesis-assignment\DuelSys inc\DuelSys\DuelSysClassLibrary\obj\Release\netcoreapp3.1\DuelSysClassLibrary.pdb

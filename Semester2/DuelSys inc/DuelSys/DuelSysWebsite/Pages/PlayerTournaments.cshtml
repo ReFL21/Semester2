@@ -1,0 +1,25 @@
+﻿@page
+@model DuelSysWebsite.Pages.PlayerTournamentsModel
+@{
+}
+<link rel="stylesheet" href="~/css/homePage.css" />
+
+
+<body>
+    <div class="Tournaments">
+        @foreach (var m in Model.duelSys.TournamentManager.ViewAllTournaments())
+        {
+            <div class="TournamentContent">
+                <p>@m.Sport.Name</p>
+                <p>From</p>
+                <p>@m.Startdate</p>-<p>@m.Enddate</p>
+
+                <a asp-page="/TournamentPage" asp-route-id="@m.ID">ViewInfo</a>
+                @*<div class="textCont">
+                        <p>@m.AgeRestriction</p>
+                    </div>*@
+
+            </div>
+        }
+    </div>
+</body>

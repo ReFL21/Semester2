@@ -1,0 +1,22 @@
+﻿@page
+@model SmartphoneSite.Pages.LoginModel
+@{
+}
+<link rel="stylesheet" href="~/css/LoginandRegister.css" />
+<link rel="stylesheet" href="~/css/homePage.css" />
+
+
+
+<div class="login">
+    <form method="post">
+        <label asp-for="MyUser.Username"><b>Username:</b></label><br />
+        <input asp-for="MyUser.Username"><br />
+        <span class="validation" asp-validation-for="MyUser.Username"></span>
+
+        <label asp-for="MyUser.Password"><b>Password</b></label><br />
+        <input asp-for="MyUser.Password"><br />
+        <span class="validation" asp-validation-for="MyUser.Password"></span>
+
+        <button type="submit">Login</button><br />
+    </form>
+</div>

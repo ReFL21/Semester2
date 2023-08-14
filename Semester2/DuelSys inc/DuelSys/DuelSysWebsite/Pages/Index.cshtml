@@ -1,0 +1,97 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<link rel="stylesheet" href="~/css/homePage.css" />
+
+<div class="gridContainer">
+    <div class="body">
+        <div class="picture">
+            <img src="~/Images/Tournament pic.jpg" />
+        </div>
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'All Tournaments')" id="defaultOpen">All Tournaments</button>
+            <button class="tablinks" onclick="openCity(event, 'Passed')">Passed Tournaments</button>
+            <button class="tablinks" onclick="openCity(event, 'Availible')">Availible Tournaments</button>
+        </div>
+
+        <div id="All Tournaments" class="tabcontent">
+            <div class="Tournaments">
+                @foreach (var m in Model.duelSys.TournamentManager.ViewAllTournaments())
+                {
+                    <div class="TournamentContent">
+                        <p>@m.Sport.Name</p>
+                        <p>From</p>
+                        <p>@m.Startdate</p>-<p>@m.Enddate</p>
+
+                        <a asp-page="/TournamentPage" asp-route-id="@m.ID">ViewInfo</a>
+                        @*<div class="textCont">
+                                <p>@m.AgeRestriction</p>
+                            </div>*@
+
+                    </div>
+                }
+            </div>
+        </div>
+
+        <div id="Passed" class="tabcontent">
+            <div class="Tournaments">
+                @foreach (var m in Model.duelSys.TournamentManager.ViewFilteredTournamentByStatus(DuelSysClassLibrary.Classes.Status.Finished))
+                {
+                    <div class="TournamentContent">
+                        <p>@m.Sport.Name</p>
+                        <p>From</p>
+                        <p>@m.Startdate</p>-<p>@m.Enddate</p>
+
+                        <a asp-page="/Movie/MoviePage" asp-route-id="@m.ID">ViewInfo</a>
+                        @*<div class="textCont">
+                                <p>@m.AgeRestriction</p>
+                            </div>*@
+
+                    </div>
+                }
+            </div>
+        </div>
+
+        <div id="Availible" class="tabcontent">
+            <div class="Tournaments">
+                @foreach (var m in Model.duelSys.TournamentManager.ViewFilteredTournamentByStatus(DuelSysClassLibrary.Classes.Status.Availible))
+                {
+                    <div class="TournamentContent">
+                        <span>Sport:</span>
+                        <p>@m.Sport.Name</p>
+                        <span>Dates:</span>
+                        <p>@m.Startdate</p>-<p>@m.Enddate</p>
+
+                        <a asp-page="/Movie/MoviePage" asp-route-id="@m.ID">View More</a>
+                        @*<div class="textCont">
+                                <p>@m.AgeRestriction</p>
+                            </div>*@
+
+                    </div>
+                }
+            </div>
+        </div>
+
+        <script>
+            function openCity(evt, cityName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+        </script>
+    </div>
+</div>

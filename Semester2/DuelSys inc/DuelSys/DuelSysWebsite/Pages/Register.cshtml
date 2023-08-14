@@ -1,0 +1,30 @@
+﻿@page
+@model SmartphoneSite.Pages.RegisterModel
+@{
+    Layout = "_Layout";
+}
+<link rel="stylesheet" href="~/css/LoginandRegister.css" />
+<link rel="stylesheet" href="~/css/homePage.css" />
+
+<h1>Register Here:</h1>
+<div class="Register">
+    <form method="post">
+        <label asp-for="User.Username"><b>Username:</b></label><br />
+        <input asp-for="User.Username"><br />
+        <span class="validation" asp-validation-for="User.Username"></span>
+
+        <label asp-for="User.Name"><b>Name:</b></label><br />
+        <input asp-for="User.Name"><br />
+        <span class="validation" asp-validation-for="User.Name"></span>
+
+        <label asp-for="User.Password"><b>Password</b></label><br />
+        <input asp-for="User.Password"><br />
+        <span class="validation" asp-validation-for="User.Password"></span>
+
+        <label asp-for="User.Email"><b>Email</b></label><br />
+        <input asp-for="User.Email"><br />
+        <span class="validation" asp-validation-for="User.Email"></span>
+
+        <button type="submit">Register</button><br />
+    </form>
+</div>

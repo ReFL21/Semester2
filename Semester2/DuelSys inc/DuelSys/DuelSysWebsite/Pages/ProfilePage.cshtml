@@ -1,0 +1,19 @@
+﻿@page
+@model SmartphoneSite.Pages.ProfilePageModel
+@{
+    Layout = "_Layout";
+}
+<link rel="stylesheet" href="~/css/Profile.css" />
+<link rel="stylesheet" href="~/css/homePage.css" />
+
+
+<div class="card">
+    <img src="/images/sir stenly pojs.jpg" alt="John" style="width:100%">
+    <h1>@Model.User.Name</h1>
+    <p class="title">@Model.User.Username</p>
+    <p>@Model.User.Email</p>
+    <div style="margin: 24px 0;">
+        <a class="content" asp-page="/PlayerTournaments"><i class="fa-solid fa-trophy"></i> ViewHistory</a>
+    </div>
+
+</div>

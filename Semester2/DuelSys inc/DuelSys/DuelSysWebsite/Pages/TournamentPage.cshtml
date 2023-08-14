@@ -1,0 +1,35 @@
+﻿@page
+@model DuelSysWebsite.Pages.TournamentPageModel
+@{
+}
+<link rel="stylesheet" href="~/css/ProductPage.css">
+<link rel="stylesheet" href="~/css/homePage.css" />
+
+
+
+<form method="post">
+    <div class="Container">
+        <div class="leftColumn">
+            <img src="~/Images/Tournament pic.jpg" />
+        </div>
+
+        <div class="rightColumn">
+            <div class="productDescription">
+
+                <span>@Model.Tournament.Sport</span><br />
+
+                <p>@Model.Tournament.Description</p>
+            </div>
+
+
+            <div class="productPrice">
+
+                <span>@Model.Tournament.Startdate - @Model.Tournament.Enddate </span>
+                <span>@Model.Tournament.City </span><br />
+                <span>@Model.Tournament.Address </span><br>
+
+                <button type="submit">Register</button><br />
+            </div>
+        </div>
+    </div>
+</form>
